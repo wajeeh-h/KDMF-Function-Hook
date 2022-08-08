@@ -1,5 +1,0 @@
-﻿  Building 'annaKMDF' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
-  Stamping x64\Release\annaKMDF.inf
-  Stamping [Version] section with DriverVer=08/08/2022,1.30.18.451
-  annaKMDF.vcxproj -> C:\Users\wagee\source\repos\x64\Release\annaKMDF.sys
-  Driver is 'Universal'.
