@@ -1,4 +1,4 @@
-# annaCSGO
+# KMDF Function Hook
 - An example of a kernel driver function hook.
 - DETECTED (by most anti cheats)
 - Hooks NtQueryCompositionSurfaceStatistics
