@@ -5,7 +5,7 @@ extern "C" NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING Reg
 	UNREFERENCED_PARAMETER(DriverObject);
 	UNREFERENCED_PARAMETER(RegistryPath);
 
-	call_kernel(&hook_fn);
+	Hook::call_kernel(&Hook::hook_fn);
 	
 	DbgPrintEx(0, 0, "[annaKMDF] Driver Loaded...\n");
 	return STATUS_SUCCESS;
