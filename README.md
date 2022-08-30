@@ -1,9 +1,13 @@
 # KMDF Function Hook
 - An example of a kernel driver function hook.
 
+```
+STATUS:
+
 UNDETECTED (by VAC)
 
 DETECTED (by BE and EAC)
+```
 - Hooks NtQueryCompositionSurfaceStatistics
 
 
