@@ -19,7 +19,7 @@ This is a safer than directly hooking the program from usermode, like most exter
 # TODO
 - Encrypt Strings (ie. Xorstr)
 - Bypass Detection Vectors (hiding the driver)
-```javascript
-var x= 1
+```c++
+int x = 1
 
 ```
