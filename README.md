@@ -8,4 +8,4 @@
 - If you were to find an alternative fuction to hook it would bypass BE and EAC
 - Sign with a paid certificate or explot a signed driver (ie. Capcom or iqvw64e.sys)
 
-[[DRIVER]](https://i.ibb.co/Hp02T0Z/image.png)
+![DRIVER](https://i.ibb.co/Hp02T0Z/image.png)
