@@ -3,9 +3,7 @@
 
 ```
 STATUS:
-
 UNDETECTED (by VAC)
-
 DETECTED (by BE and EAC)
 ```
 - Hooks NtQueryCompositionSurfaceStatistics
