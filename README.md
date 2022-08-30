@@ -19,7 +19,15 @@ This is a safer than directly hooking the program from usermode, like most exter
 # TODO
 - Encrypt Strings (ie. Xorstr)
 - Bypass Detection Vectors:
+
 ```c++
+// 1. ObjectDirectory
+// 2. ServiceDatabase
+// 3. Registry Service Database
+// 4. Signatures
+// 5. Pool-tag scanning
+// 6. High entropy symbol blocks
+
 // Disable process notification callbacks
 *( ULONG * )( PspNotifyEnableMask ) = 0;          
 
