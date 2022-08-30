@@ -7,7 +7,7 @@ DETECTED (by BE and EAC)
 - An example of a kernel driver function hook.
 - Hooks NtQueryCompositionSurfaceStatistics
 ```
-- Communicates with a usermode program to Read and Write process memory through the Kernel. 
+Communicates with a usermode program to Read and Write process memory through the Kernel. 
 This is a safer than directly hooking the program from usermode, like most externals do.
 ```
 
