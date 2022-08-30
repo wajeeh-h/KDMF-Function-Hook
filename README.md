@@ -18,8 +18,12 @@ This is a safer than directly hooking the program from usermode, like most exter
 
 # TODO
 - Encrypt Strings (ie. Xorstr)
-- Bypass Detection Vectors (hiding the driver)
+- Bypass Detection Vectors:
 ```c++
-int x = 1
+// Disable process notification callbacks
+*( ULONG * )( PspNotifyEnableMask ) = 0;          
+
+// Remove loaded driver information from globals
+MiProcessLoaderEntry( ( PKLDR_DATA_TABLE_ENTRY )( DriverLdrEntry ), FALSE );
 
 ```
