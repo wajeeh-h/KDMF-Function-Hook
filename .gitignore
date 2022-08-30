@@ -23,6 +23,10 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
+annaKMDF/Release
+annaKMDF/x64
+annaUM/Release
+annaUM/x64
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
