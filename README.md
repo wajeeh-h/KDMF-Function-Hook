@@ -15,3 +15,11 @@ This is a safer than directly hooking the program from usermode, like most exter
 ```
 
 ![DRIVER](https://i.ibb.co/Hp02T0Z/image.png)
+
+# TODO
+- Encrypt Strings (ie. Xorstr)
+- Bypass Detection Vectors (hiding the driver)
+```javascript
+var x= 1
+
+```
