@@ -7,7 +7,7 @@ STATUS:
 UNDETECTED (by VAC)
 DETECTED (by BE and EAC)
 
-- If you were to find an alternative fuction to hook it would bypass BE and EAC
+If you were to find an alternative fuction to hook it would bypass BE and EAC
 ```
 ```
 Communicates with a usermode program to Read and Write process memory through the Kernel. 
