@@ -20,6 +20,8 @@ This is a safer than directly hooking the program from usermode, like most exter
 
 ![DRIVER](https://i.ibb.co/Hp02T0Z/image.png)
 
+DebugView lets one monitor debug outputs from different sources, like drivers. If our message shows up it means the driver has succesfully loaded.  
+
 # TODO
 - Encrypt Strings (ie. Xorstr)
 - Bypass Detection Vectors:
