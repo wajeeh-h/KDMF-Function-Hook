@@ -1,4 +1,7 @@
 # KMDF Function Hook
+
+If you're unfamilar, this is an educational example of a type of cheat used in many competitive games (think Counter-Strike: Global Offensive, CSGO). It involves the use of a few lines of assembly code to intercept and redirect the execution of a system call at the kernel (lowest) level of the operating system (Windows 10/11).  
+
 - An example of a kernel driver function hook.
 - Hooks NtQueryCompositionSurfaceStatistics
 
