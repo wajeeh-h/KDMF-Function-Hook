@@ -2,12 +2,13 @@
 
 This is an educational example of a type of cheat used in many competitive games (think Counter-Strike: Global Offensive, CSGO). It involves the use of a few lines of assembly code to intercept and redirect the execution of a function at the kernel level of the operating system (Windows 10/11). This program interceps the function NtQueryCompositionSurfaceStatistics and points to itself instead. From there, one can execute whatever code they would like to. 
 
+* As an educational example this repo only includes the driver and NOT the actual user-mode cheat and gui though those are relatively straight forward to create and there are many examples (on my profile and on others) of * how to do just that.
+
 In this case, we create a driver (annaKMDF) with the functions write_process_memory(process, source, target, size) and read_process_memory(process, source, target, size) which will allow us to read and modify memory pertaining to a certain process. Using this, one could for instance use the read_process_memory function, point towards csgo.exe at the address 0x4DFFF7C, which currently points towards a list of all entities within a match, then find and highlight the locations of all enemy players. 
 
 A cheat which operates at such a low level is impossible to detect with user-mode uninvasive anti-cheats like CSGO's vac. Only anti-cheats which operate at a similar level notice something amiss (i.e. Battle Eye, Easy Anti Cheat, Vanguard).
 
-This repo only includes the driver and NOT the actual user-mode cheat and gui as those are relatively straight forward to create and there are many examples (on my profile and on others) of how to do just that.
-
+  
 ```
 STATUS:
 UNDETECTED (by VAC)
