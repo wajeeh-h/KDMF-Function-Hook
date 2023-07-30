@@ -11,14 +11,10 @@ A cheat which operates at such a low level is impossible to detect with user-mod
   
 ```
 STATUS:
-UNDETECTED (by VAC)
-DETECTED (by BE, EAC, and Vanguard)
+UNDETECTED by VAC
+DETECTED by BE, EAC, and Vanguard
 
 If you were to find an alternative fuction to hook it would bypass BE and EAC
-```
-```
-Communicates with a usermode program to Read and Write process memory through the Kernel. 
-This is a safer than directly hooking the program from usermode, like most externals do.
 ```
 
 ![DRIVER](https://i.ibb.co/Hp02T0Z/image.png)
